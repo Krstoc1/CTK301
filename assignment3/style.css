@@ -1,0 +1,27 @@
+.pink {
+color: red;
+  background-color: #00FF00;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+}
+
+a:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: green;
+}
+
+#clean {
+  background-color: blue;
+}
+
+.joe {
+  color: green;
+  background-color: yellow;
+}
