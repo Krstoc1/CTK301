@@ -1,0 +1,38 @@
+#text {
+  color: white;
+}
+
+.geen {
+  background-color: blue;
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+.blue {
+  color: blue;
+}
+
+.pink{
+  color: orange;
+  font-weight: bold;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  color: red;
+}
+
+#sheesh {
+  color: yellow;
+  background-color: green;
+}
+
+#green {
+  background-color: lightgreen;
+}
