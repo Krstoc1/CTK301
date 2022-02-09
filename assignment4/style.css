@@ -1,0 +1,54 @@
+.pink {
+color: red;
+  background-color: #00FF00;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+}
+
+a:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: green;
+}
+
+#clean {
+  background-color: blue;
+}
+
+.joe {
+  color: green;
+  background-color: yellow;
+}
+
+.customtext {
+  font-family: sans-serif;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.orange {
+  color: orange;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.imgbox {
+  border: 10px solid black;
+  padding: 10px 10px 10px 10px;
+}
+
+body {
+  background-image: url(background.jpg);
+}
