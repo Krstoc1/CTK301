@@ -1,0 +1,121 @@
+#wrapper {
+  margin: 0em auto;
+  width: 960px;
+  border: 0px solid black;
+  background-color: black;
+  display: grid;
+grid-template-columns: repeat(12, 1fr);
+
+}
+body { background-color: #999999;
+background-image: url(a62.png);
+}
+
+nav {
+  grid-column: span 1;
+   text-align:center;
+}
+
+
+nav li {
+  display: block;
+  float: right;
+  grid-column: span 2;
+  padding-bottom: 25px;
+  margin-right: 0px;
+  margin-top: 10px;
+  width: 150px;
+  color: #ffffff;
+}
+
+nav li a {
+  color: #ffffff;
+  display: block;
+  border: 0px solid #000000;
+  padding: 20px;
+  background-color: #cc0000;
+  background: linear-gradient(270deg, rgba(103,0,0,1) 0%, rgba(0,0,0,1) 100%);
+  text-decoration: none;
+  font-family: helvetica;
+  font-weight: bold;
+  color: darkred;
+}
+
+nav li a:hover {
+background: linear-gradient(270deg, rgba(73,0,0,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+h1 {
+  grid-column: span 9;
+  margin-bottom: -70px;
+
+}
+
+h1 a {
+    display: block;
+    padding: 50px;
+background: linear-gradient(90deg, rgba(103,0,0,1) 0%, rgba(0,0,0,1) 100%);
+  color: darkred;
+  text-decoration: none;
+  font-family: helvetica;
+  font-weight: bold;
+  grid-column: span 12;
+  font-size: 55px;
+}
+
+footer {
+  grid-column: span 12;
+  display: block;
+  background-color: red;
+  border-top: 4px solid #670000;
+}
+
+#first {
+    grid-column: span 6;
+    color: white;
+    padding-left: 5px;
+    font-family: helvetica;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: -20px;
+}
+
+.green {
+grid-column: span 11;
+  width: auto;
+  float: right;
+  margin: 25px;
+  margin-top: 120px;
+  border: 4px solid #670000;
+  padding: 0px;
+}
+.p1 {
+  font-size: 18px;
+}
+.p2 {
+  clear: both
+}
+.p1, .p2 {
+}
+
+main {
+    grid-column: span 12;
+}
+
+h2 {
+  font-family: helvetica;
+    grid-column: span 12;
+    color: darkred;
+    background: linear-gradient(90deg, rgba(103,0,0,1) 0%, rgba(0,0,0,1) 100%)
+}
+
+.k {
+  grid-column: span 2;
+}
+
+.h {
+  color: white;
+  text-decoration: none;
+  font-family: helvetica;
+  font-weight: bold;
+}
