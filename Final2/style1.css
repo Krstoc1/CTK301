@@ -1,0 +1,133 @@
+#wrapper {
+  margin: 0em auto;
+  width: 960px;
+  border: 0px solid black;
+  background-color: black;
+  display: grid;
+grid-template-columns: repeat(12, 1fr);
+
+}
+body { background-color: #999999;
+background-image: url(a62.png);
+}
+
+nav {
+  grid-column: span 1;
+   text-align:center;
+}
+
+
+nav li {
+  display: block;
+  float: right;
+  grid-column: span 2;
+  padding-bottom: 25px;
+  margin-right: 0px;
+  margin-top: 10px;
+  width: 150px;
+  color: #ffffff;
+}
+
+nav li a {
+  color: #ffffff;
+  display: block;
+  border: 0px solid #000000;
+  padding: 20px;
+  background-color: #cc0000;
+  background: linear-gradient(270deg, rgba(103,0,0,1) 0%, rgba(0,0,0,1) 100%);
+  text-decoration: none;
+  font-family: helvetica;
+  font-weight: bold;
+  color: darkred;
+}
+
+nav li a:hover {
+background: linear-gradient(270deg, rgba(73,0,0,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+h1 {
+  grid-column: span 9;
+  margin-bottom: -70px;
+
+}
+
+h1 a {
+    display: block;
+    padding: 50px;
+background: linear-gradient(90deg, rgba(103,0,0,1) 0%, rgba(0,0,0,1) 100%);
+  color: darkred;
+  text-decoration: none;
+  font-family: helvetica;
+  font-weight: bold;
+  grid-column: span 12;
+  font-size: 55px;
+}
+
+.k {
+  grid-column: span 1;
+}
+
+.h {
+  color: white;
+  text-decoration: none;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+main{
+  grid-column: span 12;
+}
+h2 {
+  grid-column: span 12;
+  color: darkred;
+    background: linear-gradient(90deg, rgba(103,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    padding-left: 5px;
+}
+
+.er {
+  color:white;
+  grid-column: span 6;
+  font-family: helvetica;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+footer {
+  grid-column: span 12;
+  display: block;
+  background-color: red;
+  border-top: 4px solid #670000;
+}
+
+.carousel {
+  grid-column: span 12;
+  color: #170724;
+
+  --carousel-button-bg: #fff;
+  --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
+          0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+  --carousel-button-svg-width: 20px;
+  --carousel-button-svg-height: 20px;
+  --carousel-button-svg-stroke-width: 2.5;
+}
+
+.carousel__slide {
+  display: flex;
+  justify-content: center;
+
+  width: 80%;
+  height: 300px;
+  margin-right: 6px;
+
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+.t {
+  grid-column: span 6;
+  color: white;
+  text-decoration: none;
+  font-family: helvetica;
+  font-weight: bold;
+}
